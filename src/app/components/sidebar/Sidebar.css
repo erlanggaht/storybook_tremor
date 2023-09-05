@@ -1,0 +1,13 @@
+@import "../../globals.css";
+
+.Sidebar-AreaImage {
+  @apply hidden md:flex flex-col items-center py-6 px-2 bg-gray-300 bg-[url("https://images.unsplash.com/photo-1567739665094-c24f043b8407?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80")] bg-center bg-cover bg-no-repeat;
+}
+
+.Sidebar-Avatar {
+    @apply bg-white rounded-full shadow-sm
+}
+
+.List-Sidebar {
+    @apply flex items-center py-4 px-1  hover:bg-[#222] cursor-pointer text-sm gap-1;
+  }

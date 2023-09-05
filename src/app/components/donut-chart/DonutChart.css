@@ -1,0 +1,13 @@
+@import '../../globals.css';
+
+.ChartDonut-Card {
+    @apply w-full md:h-full
+}
+
+.ChartDonut-Title {
+    @apply text-center md:text-left
+}
+
+.Donut {
+    @apply my-16
+}

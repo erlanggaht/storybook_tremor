@@ -1,0 +1,16 @@
+.center {
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+}
+
+.center-top {
+    align-items:flex-start;
+}
+.center-center {
+    align-items: center;
+}
+.center-bottom {
+    align-items: flex-end;
+}
+

@@ -1,0 +1,23 @@
+.navigation {
+    background-color: #eee;
+    padding:6px 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.navigation ul {
+    display: flex;
+    gap:16px;
+    list-style: none;
+    padding: 3px 6px 0 16px;
+    justify-content:flex-start;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.shadow {
+    box-shadow:  0 1px 2px 0 rgb(0 0 0 / 0.05);
+}

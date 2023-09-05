@@ -1,0 +1,26 @@
+.input {
+    border: solid 1px #ddd;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.small {
+    padding: 6px 6px;
+    width: 240px;
+}
+
+.medium {
+    padding: 10px 6px;
+    width: 340px;
+}
+
+.large {
+    padding: 16px 6px;
+    width: 440px;
+}
+
+.fullWidth {
+    width: 100%;
+    
+}

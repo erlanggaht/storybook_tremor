@@ -1,0 +1,21 @@
+@import "../../globals.css";
+
+.Dashboard {
+  @apply p-6;
+}
+
+.Area-1 {
+  @apply flex flex-wrap md:flex-nowrap gap-4 mt-16;
+}
+
+.Area-2 {
+  @apply mt-6 flex md:flex-row flex-col gap-4;
+}
+
+.Line-Chart {
+  @apply md:w-[60%];
+}
+
+.Chart-Donut {
+  @apply md:w-[40%];
+}

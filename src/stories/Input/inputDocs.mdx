@@ -1,0 +1,42 @@
+{/* InputDocs.mdx */}
+
+import { Meta, Source } from '@storybook/blocks';
+import * as InputStories from './input.stories';
+import Input from './input'
+
+<Meta of={InputStories} />
+<h1> INPUT </h1>
+<br/><br/>
+<div>
+<h3> Input Small </h3>
+<InputStories.InputSmall> </InputStories.InputSmall>
+</div>
+<Source of={InputStories.InputSmall} />
+
+
+<hr/>
+
+<br/><br/>
+<div>
+<h3> Input Medium </h3>
+<InputStories.InputMedium> </InputStories.InputMedium>
+</div>
+<Source of={InputStories.InputSmall} />
+
+<hr/>
+
+<br/><br/>
+<div>
+<h3> Input Large </h3>
+<InputStories.InputLarge> </InputStories.InputLarge>
+</div>
+<Source of={InputStories.InputLarge} />
+
+<hr/>
+
+<br/><br/>
+<div>
+<h3> Input FullWidth </h3>
+<InputStories.InputFullWidth> </InputStories.InputFullWidth>
+</div>
+<Source of={InputStories.InputFullWidth} />
